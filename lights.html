@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+	    
+	     <!-- ABOUT this page -->
+	    <title></title>
+	    <meta name="description" content="This page is">
+	    <meta name="keywords" content=""  />
+	    <meta name="author" content="Michelle James">
+	    
+	    <!--  VIEWPORT optimized specific to content -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	    	    
+	    <!-- CSS -->
+<!-- 	    <link rel="stylesheet" href="src/css/reset.css">
+ -->	    <link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body class="lightsPage">
+
+		<div class="wrapper">
+
+			<canvas id="snow" class="snow"></canvas>
+
+			<div class="backgroundAnimation background"></div>
+			<div class="backgroundAnimation backgroundH"></div>
+			<div class="backgroundAnimation backgroundE"></div>
+			<div class="backgroundAnimation backgroundL"></div>
+			<div class="backgroundAnimation backgroundP"></div>
+			<div class="backgroundAnimation backgroundLights"></div>
+
+			<button class="lightButton Hlight"></button>
+			<button class="lightButton Elight"></button>
+			<button class="lightButton Llight"></button>
+			<button class="lightButton Plight"></button>
+
+			<a href="https://www.netflix.com"><img class="netflix-white" src="assets/img/Lights/Desktop/img/Netflix-white.png" alt="">
+			</a>
+
+			<video id="lightsVideo" class="lightsTrailer" controls="control" type="video/mp4" src="assets/img/Lights/Desktop/video/joyce_05.mp4">
+			Sorry, your browser doesn't support embedded videos, 
+			but don't worry, you can <a href="https://vimeo.com/228320823">watch it</a>
+			right here!
+			</video>
+
+			<!-- <div class="navigationHidden">
+				<a href="index.html">Return Home</a>
+				<a href="http://www.netflix.com">Watch On Netflix</a>
+			</div> -->
+
+			<div class="navigation">	
+				<a href="index.html"><div class="arrow previous"></div></a>
+					<a href="index.html" class="circle circle1"></a>
+					<a href="lights.html" class="circle circle2 active"></a>
+					<a href="character.html" class="circle circle3"></a>
+					<a href="tree.html" class="circle circle4"></a>
+				<a href="character.html"><div class="arrow next"></div></a>
+			</div>
+
+			<img class="logo-small" src="assets/img/Lights/Desktop/img/StrangerThings2.png" alt="">
+		
+		</div>
+
+		<script src="src/js/snow.js"></script>
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.js"
+		  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+		  crossorigin="anonymous"></script>
+		<script src="src/js/parallax.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+		<script src="src/js/main.js"></script>
+	</body>
+</html>

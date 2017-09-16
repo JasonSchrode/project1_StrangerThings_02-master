@@ -1,0 +1,140 @@
+.lights-link,
+.hand-link {
+	position: absolute;
+	z-index: 1;
+}
+
+.lights-link {
+	width: 37.5%;
+	
+	@media screen and (min-width: 768px) {
+		width: 28.125%;
+	}
+
+	@media screen and (min-width: 960px) {
+		width: 21.61458333%;
+	}
+}
+
+.hand-link {
+	width: 50%;
+	bottom: 0;
+	
+	@media screen and (min-width: 768px) {
+		width: 42.70833333%;
+	}
+
+	@media screen and (min-width: 960px) {
+		width: 26.04166667%;
+	}
+}
+
+.lights {
+	width: 100%;
+	position: absolute;
+	top: -40px;
+	left: -40px;
+}
+
+.hand {
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+
+.tree {
+	width: 45.83333333%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+	@media screen and (min-width: 768px) {
+		width: 36.45833333%;
+	}
+
+	@media screen and (min-width: 960px) {
+		width: 30.46875%;
+	}
+}
+
+.netflix-red {
+	position: absolute;
+	width: 20.83333333%;
+	top: 4%;
+	right: 8.333333333%;
+
+	@media screen and (min-width: 768px) {
+		width: 11.97916667%;
+		top: 7.421875%;
+		right: 10.41666667%;
+	}
+
+	@media screen and (min-width: 960px) {
+		width: 10.15625%;
+		top: 85%;
+		right: 5.729166667%;
+		z-index: 10;
+	}
+}
+
+.main {
+	position: relative;
+	width: 85.41666667%;
+	top: 40.561404%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	@media screen and (min-width: 768px) {
+		width: 77.08333333%;
+	}
+
+	@media screen and (min-width: 960px) {
+		width: 55.46875%;
+	}
+
+	.title {
+		position: absolute;
+		width: 100%;
+	}
+
+	.season {
+		width: 54.16666667%;
+		margin-left: 20.07317073%;
+	}
+}
+
+.release {
+	position: absolute;
+	top: 58.912281%;
+	left: 47%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1.75px;
+	font-weight: 100;
+	font-size: .8rem;
+
+	@media screen and (min-width: 768px) {
+		top: 65.234375%;
+	}
+
+	@media screen and (min-width: 960px) {
+		top: 87.5%;
+		font-size: 1.2rem;
+	}
+}
+
+.lights-trailer {
+
+	@media screen and (min-width: 960px) {
+		position: absolute;
+		width: 50%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 500;
+	}
+}
