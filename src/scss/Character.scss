@@ -235,7 +235,7 @@ $body-font: "proxima-nova", Helvetica, sans-serif;
 			}
 
 			&.slide-right {
-				transform: translateX(0%);
+				transform: transparentnslateX(0%);
 			}
 
 			@media screen and (min-width: 768px) {
@@ -294,7 +294,7 @@ $body-font: "proxima-nova", Helvetica, sans-serif;
 			align-items: center;
 			height: 200px;
 			width: 60%;
-			margin: 45px 0 0 0;
+			margin: 5px 0 0 0;
 			// border: 2px solid white;
 
 			@media(min-width: 768px) {
@@ -328,46 +328,47 @@ $body-font: "proxima-nova", Helvetica, sans-serif;
 
 		.demogorgonText {
 			color: #620E11;
-			top: 40px;
-			position: absolute;
+			margin-top: -170px;
+			position: relative;
 			float: left;
 			font-size: 1em;
 			line-height: 16px;
 			font-family: $body-font;
 			font-weight: 600;
 			text-align: center;
+			// border: 2px solid white;
 
 			@media(min-width: 768px) {
-				top: 70px;
+				top: -50px;
 				margin-left: -60px;
 				font-size: 1.4rem;
 				line-height: 24px;
 			}
 
 			@media(min-width: 960px) {
-				margin-left: -100px;
-				top: 40px;
+				margin-left: -120px;
+				top: -60px;
 				font-size: 1.2rem;
 
 			}
 		}
 
 		.demogorgonImage {
-			position: absolute;
+			position: relative;
 			clear: both;
-			top: 100px;
+			top: -140px;
 			left: 62%;
 			width: 110px;
 
 			@media screen and (min-width: 768px) {
 				left: 62%;
-				top: 155px;
+				top: -155px;
 				width: 150px;
 			}
 
 			@media screen and (min-width: 960px) {
-				left: 58%;
-				top: 120px;
+				left: 56%;
+				top: -160px;
 				width: 150px;
 			}
 		}
@@ -383,33 +384,36 @@ $body-font: "proxima-nova", Helvetica, sans-serif;
 
 			h2 {
 				position: relative;
-				float: left;
-				clear: none;
+				// float: left;
+				// clear: none;
+				top: -120px;
 
 				@media (min-width: 768px) {
 					font-size: 1.7rem;
-					margin-top: 70px;
+					margin-top: 0px;
 					letter-spacing: 1.5px;
 				}	
 
 				@media (min-width: 960px) {
 					font-size: 1.7rem;
-					margin-top: 50px;
+					margin-top: 0px;
 					letter-spacing: 1.5px;
 				}	
 			}
 
 			p {
 				position: relative;
-				float: left;
+				// float: left;
 				clear: both;
 				width: 85%;
+				top: -120px;
 				// border: 3px solid blue;
 
 				@media (min-width: 768px) {
 					width: 70%;
 					font-size: 1.1rem;
 					letter-spacing: .6px;
+					top: -90px;
 				}
 
 				@media (min-width: 960px) {
